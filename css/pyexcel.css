@@ -1,7 +1,87 @@
+.container {
+	width: 800px;
+}
+
+pre {
+	color: white;
+	background-color: #3874a4;
+}
+	
+
+.navbar {
+	margin-bottom: 0px;
+}
+
 .navbar-custom {
     color: #FFFFFF;
-    background-color: grey;
+    background-color: #3874a4;
+}
+
+.logo-icon {
+	height: 106px;
+}
+
+.logo{
+	height: 32px;
+}
+
+a {
+	color: white;
+}
+
+.blue-section{
+	background-color: #3874a4;
+	height: 400px;
+}
+
+.yellow-section {
+	height: 400px;
+	margin-top: 10px;
+}
+
+p {
+		color: white;
+}
+
+.slogan{
+	color: white;
+	font-size: 68px;
+}
+
+.gitter-icon{
+	height: 28px;
+	vertical-align: top;
 }
 
 
+div#footer{
+	text-align: center;
+}
 
+
+div.download-btn>a {
+	display: inline-block;
+    background: #ffda53;
+    color: #3874a4;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-size: 17px;
+    text-decoration: none;
+    box-shadow: 3px 3px 0 rgba(61,59,60,.4);
+    margin-bottom: 3px;
+	width: 218px;	   
+}
+
+
+.logo-section {
+	vertical-align: middle;
+}
+
+#dialog-div {
+	margin-top: 50px;
+}
+
+
+.large-logo {
+	height: 106px;
+}
