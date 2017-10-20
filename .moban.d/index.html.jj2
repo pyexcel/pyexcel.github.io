@@ -45,7 +45,7 @@
 		<a href="https://github.com/pyexcel"><img src="images/pyexcel-large.png" class="large-logo"/></a>
 	  </div>
 	  <div class="col-md-4" class="logo-section">
-		<div class="download-btn"><a href="https://pypi.python.org/pypi/pyexcel"><i class="glyphicon glyphicon-download-alt"></i> &nbsp; Download 0.5.5</a></div>
+		<div class="download-btn"><a href="https://pypi.python.org/pypi/pyexcel"><i class="glyphicon glyphicon-download-alt"></i> &nbsp; Download {{release}}</a></div>
 		<a href="https://www.patreon.com/bePatron?c=830342"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png"></a>
 	  </div>
 	  </div>
@@ -97,17 +97,7 @@
   </div>
   <div class="intro-section">
     <div class="container">
-The idea originated from the common usability problem: when an excel file
-driven web application is delivered for non-developer users (ie: team assistant,
-human resource administrator etc). The fact is that not everyone knows (or cares) about the
-differences between various excel formats: csv, xls, xlsx are all the same to them. Instead of training those users
-about file formats, this library helps web developers to handle most of the excel file
-formats by providing a common programming interface. To add a specific excel file format type
-to you application, all you need is to install an extra pyexcel plugin. Hence no code changes
-to your application and no issues with excel file formats any more. Looking at the
-community, this library and its associated ones try to become a small and easy to
-install alternative to Pandas.
-
+      {%include "origin.rst.jj2" %}
     </div>
   </div>
   <div class="community-section">

@@ -1,0 +1,8 @@
+configuration:
+  configuration_dir: "commons/config"
+  template_dir:
+    - "commons/templates"
+    - ".moban.d"
+  configuration: pyexcel.yml
+targets:
+  - index.html: index.html.jj2

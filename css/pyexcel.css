@@ -29,6 +29,10 @@ a {
 	color: white;
 }
 
+.feature-section a {
+    color: #3874a4;	
+}
+
 .blue-section{
 	background-color: #3874a4;
 	height: 400px;
@@ -92,8 +96,9 @@ div.download-btn>a {
 }
 
 .footer-section {
+    padding-top: 15px;
 	height: 50px;
-	background-color: gray;
+	background-color: #6BA7D7;;
 }
 
 
@@ -112,7 +117,29 @@ i.feature-circle {
 }
 
 
-.showcase-section{
+.intro-section{
 	background-color: #6BA7D7;
+	height: 250px;
+    font-size: 16px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.showcase-section{
+    background-color: gray;
 	height: 500px;
+}
+
+.community-section {
+    height: 200px;
+}
+
+
+.community-section img {
+    width: 400px;
+}
+
+.community-section h3 {
+    color: #6BA7D7;
 }
