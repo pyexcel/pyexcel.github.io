@@ -71,7 +71,7 @@
 	  <div class="row">
 		<h2 class="blue-text">Feature Highlights</h2>
 		<div class="col-md-6">
-		  <i class="feature-circle fa fa-hourglass-o"></i>
+		  <i class="feature-circle fa fa-calendar"></i>
 		  <strong class="blue-text">Time To Market</strong>
 		  <p class="blue-text">One pip-install command gets you the support for an additional excel format. No code changes required.</p>
 		</div>
@@ -79,6 +79,18 @@
 		  <i class="feature-circle fa fa-puzzle-piece"></i>
 		  <strong class="blue-text">Highly Extensible</strong>
 		  <p class="blue-text">It is extremely easy to add a support for your own data format.</p>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-md-6">
+		  <i class="feature-circle fa fa-feed"></i>
+		  <strong class="blue-text">Data Streaming</strong>
+		  <p class="blue-text"><a href="http://pyexcel.readthedocs.io/en/v0.6.0/two-liners.html">A generator of data can be obtained</a> when dealing with big data set.</p>
+		</div>
+		<div class="col-md-6">
+		  <i class="feature-circle fa fa-bolt"></i>
+		  <strong class="blue-text">Fully Optimized</strong>
+		  <p class="blue-text">Third party libraries(openpyxl, xlrd and xlwt) are pre-configured for optimal data reading and writing.</p>
 		</div>
 	  </div>
 	  <div class="row">
