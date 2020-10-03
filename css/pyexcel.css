@@ -132,12 +132,13 @@ i.feature-circle {
 }
 
 .community-section {
-    height: 300px;
+    height: 600px;
 }
 
 
 .community-section img {
-    width: 350px;
+    width: 200px;
+    margin: 10 10 10 10;
 }
 
 .community-section h3 {
