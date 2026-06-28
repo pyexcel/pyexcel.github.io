@@ -1,10 +1,8 @@
-.container {
-	width: 800px;
-}
-
 pre {
 	color: white;
 	background-color: #3874a4;
+	overflow-x: auto;
+	word-wrap: normal;
 }
 	
 
@@ -35,7 +33,9 @@ a {
 
 .blue-section{
 	background-color: #3874a4;
-	height: 400px;
+	min-height: 300px;
+	height: auto;
+	padding-bottom: 30px;
 }
 
 .white-text {
@@ -46,12 +46,6 @@ a {
 	color: white;
 	font-size: 68px;
 }
-
-.gitter-icon{
-	height: 28px;
-	vertical-align: top;
-}
-
 
 div.feature-section{
 	text-align: center;
@@ -87,8 +81,10 @@ div.download-btn>a {
 
 
 .feature-section {
-	height: 550px;
+	min-height: 400px;
+	height: auto;
 	margin-top: 10px;
+	padding-bottom: 30px;
 }
 
 .blue-text{
@@ -119,7 +115,7 @@ i.feature-circle {
 
 .intro-section{
 	background-color: #6BA7D7;
-	height: 250px;
+	height: auto;
     font-size: 16px;
     color: white;
     padding-top: 30px;
@@ -128,11 +124,15 @@ i.feature-circle {
 
 .showcase-section{
     background-color: gray;
-	height: 500px;
+	min-height: 400px;
+	height: auto;
+	padding-bottom: 20px;
 }
 
 .community-section {
-    height: 600px;
+    min-height: 200px;
+    height: auto;
+    padding-bottom: 30px;
 }
 
 
@@ -143,4 +143,71 @@ i.feature-circle {
 
 .community-section h3 {
     color: #6BA7D7;
+}
+
+/* Responsive images */
+.large-logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.carousel-inner img {
+    max-height: 400px;
+    height: auto !important;
+    width: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Mobile breakpoint */
+@media (max-width: 768px) {
+    .slogan {
+        font-size: 36px;
+    }
+    .large-logo {
+        height: auto;
+        max-height: 80px;
+        margin-bottom: 15px;
+    }
+    #dialog-div {
+        margin-top: 20px;
+    }
+    pre {
+        font-size: 11px;
+    }
+    .download-btn > a {
+        width: auto !important;
+    }
+    .community-section img {
+        width: 140px;
+    }
+    .carousel-inner img {
+        max-height: 220px;
+    }
+    .blue-section {
+        padding-bottom: 20px;
+    }
+    .feature-section {
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand img.logo {
+        height: 48px;
+    }
+    pre {
+        font-size: 10px;
+    }
+    .carousel-inner img {
+        max-height: 160px;
+    }
 }
